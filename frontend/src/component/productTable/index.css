@@ -1,0 +1,109 @@
+.product-table-container {
+  display: flex;
+  flex-wrap: wrap;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  padding: 15px;
+  gap: 15px;
+  background: #f9f9f9;
+}
+
+.table-left {
+  flex: 1;
+  min-width: 320px;
+  background: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+}
+
+.table-header {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 15px;
+}
+
+.header-actions {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-top: 10px;
+}
+
+.filters {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+.filters input, .filters select {
+  padding: 7px 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  min-width: 120px;
+}
+
+.add-btn {
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  padding: 7px 15px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: 0.2s;
+}
+
+.add-btn:hover {
+  background-color: #45a049;
+}
+
+.table-wrapper {
+  overflow-x: auto;
+}
+
+.product-table {
+  width: 100%;
+  border-collapse: collapse;
+  min-width: 600px;
+}
+
+.product-table th, .product-table td {
+  padding: 10px;
+  border-bottom: 1px solid #eee;
+  text-align: left;
+}
+
+.product-table thead th {
+  background-color: #f0f0f0;
+  font-weight: 600;
+}
+
+.product-table tbody tr:hover {
+  background-color: #f9f9f9;
+}
+
+.loading {
+  text-align: center;
+  padding: 20px;
+  font-size: 16px;
+  color: #555;
+}
+
+/* Responsive */
+@media(max-width:768px){
+  .table-left {
+    padding: 15px;
+  }
+  .filters {
+    flex-direction: column;
+    gap: 5px;
+  }
+  .header-actions {
+    flex-direction: column;
+    gap: 10px;
+  }
+  .product-table {
+    font-size: 14px;
+  }
+}

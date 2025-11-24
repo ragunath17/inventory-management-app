@@ -1,0 +1,18 @@
+.import-export-buttons {
+  display: flex;
+  gap: 10px;
+}
+
+.import-btn, .export-btn {
+  background-color: #1976D2;
+  color: white;
+  padding: 7px 15px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+.import-btn:hover, .export-btn:hover {
+  background-color: #115293;
+}

@@ -1,0 +1,36 @@
+.stock-in {
+  color: green;
+  font-weight: 600;
+}
+
+.stock-out {
+  color: red;
+  font-weight: 600;
+}
+
+.actions button {
+  padding: 5px 10px;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+  font-size: 13px;
+  transition: 0.2s;
+  margin-right: 5px;
+}
+
+.edit-btn { background-color: #2196F3; color: white; }
+.edit-btn:hover { background-color: #1976D2; }
+
+.save-btn { background-color: #4CAF50; color: white; }
+.save-btn:hover { background-color: #388E3C; }
+
+.delete-btn { background-color: #f44336; color: white; }
+.delete-btn:hover { background-color: #d32f2f; }
+
+tr td input {
+  width: 100%;
+  padding: 5px;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+  font-size: 14px;
+}

@@ -1,0 +1,52 @@
+.sidebar-overlay {
+  position: fixed;
+  top:0; left:0; right:0; bottom:0;
+  background-color: rgba(0,0,0,0.3);
+  display: flex;
+  justify-content: flex-end;
+  z-index: 999;
+}
+
+.sidebar {
+  background: #fff;
+  width: 320px;
+  max-width: 80%;
+  height: 100%;
+  box-shadow: -2px 0 10px rgba(0,0,0,0.2);
+  display: flex;
+  flex-direction: column;
+}
+
+.sidebar-header {
+  padding: 15px;
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid #eee;
+  font-weight: bold;
+}
+
+.sidebar-body {
+  padding: 15px;
+  overflow-y: auto;
+  flex: 1;
+}
+
+.sidebar-body table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.sidebar-body th, .sidebar-body td {
+  padding: 8px;
+  border-bottom: 1px solid #eee;
+  text-align: left;
+}
+
+.close-btn {
+  background: #f44336;
+  color: white;
+  border: none;
+  padding: 3px 7px;
+  border-radius: 5px;
+  cursor: pointer;
+}
