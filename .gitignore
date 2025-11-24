@@ -1,0 +1,18 @@
+# Node
+node_modules/
+npm-debug.log
+.env
+
+# React
+/build
+/node_modules/
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Database
+/backend/inventory.db
+
+# Logs
+*.log
